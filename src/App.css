@@ -1,0 +1,52 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button.btn1, button.btn2 {
+  cursor: pointer;
+}
+button.btn1[disabled] {
+  background-color: lightgrey;
+  border-color: lightgrey;
+  cursor: auto;
+}
+button.btn2[disabled] {
+  background-color: #ffbcbc;
+  border-color: #ffbcbc;
+  cursor: auto;
+}
+
+label {
+  display: inline-block;
+
+}
+
+div.radio-button {
+  margin-left: -900px;
+}
+
+
+.head-box {
+  box-shadow: 2px 3px 4px 0 rgba(0,0,0,0.35);
+}
+.whole {
+  border: 1px solid rgba(0,0,0,0.15);
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px 4px rgba(0,0,0,0.35);
+}
